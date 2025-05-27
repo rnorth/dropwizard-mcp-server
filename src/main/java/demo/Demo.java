@@ -16,8 +16,6 @@ public class Demo extends Application<DemoConfiguration> {
 
     @Override
     public void initialize(Bootstrap<DemoConfiguration> bootstrap) {
-        WeatherForecastTool weatherForecastTool = new WeatherForecastTool();
-
         mcpServerBundle = McpServerBundle.builder()
                 .build();
 
